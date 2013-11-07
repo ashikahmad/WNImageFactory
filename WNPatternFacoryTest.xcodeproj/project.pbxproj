@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBC5074182C5C81007E5338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5073182C5C81007E5338 /* Foundation.framework */; };
+		3BBC5076182C5C81007E5338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5075182C5C81007E5338 /* CoreGraphics.framework */; };
+		3BBC5078182C5C81007E5338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5077182C5C81007E5338 /* UIKit.framework */; };
+		3BBC507E182C5C81007E5338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC507C182C5C81007E5338 /* InfoPlist.strings */; };
+		3BBC5080182C5C81007E5338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC507F182C5C81007E5338 /* main.m */; };
+		3BBC5084182C5C81007E5338 /* WNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5083182C5C81007E5338 /* WNAppDelegate.m */; };
+		3BBC5087182C5C81007E5338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC5085182C5C81007E5338 /* Main.storyboard */; };
+		3BBC508A182C5C81007E5338 /* WNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC5089182C5C81007E5338 /* WNViewController.m */; };
+		3BBC508C182C5C81007E5338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC508B182C5C81007E5338 /* Images.xcassets */; };
+		3BBC5093182C5C81007E5338 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5092182C5C81007E5338 /* XCTest.framework */; };
+		3BBC5094182C5C81007E5338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5073182C5C81007E5338 /* Foundation.framework */; };
+		3BBC5095182C5C81007E5338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5077182C5C81007E5338 /* UIKit.framework */; };
+		3BBC509D182C5C81007E5338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC509B182C5C81007E5338 /* InfoPlist.strings */; };
+		3BBC509F182C5C81007E5338 /* WNPatternFacoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BBC5096182C5C81007E5338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BBC5068182C5C81007E5338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BBC506F182C5C81007E5338;
+			remoteInfo = WNPatternFacoryTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNPatternFacoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBC5073182C5C81007E5338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BBC5075182C5C81007E5338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BBC5077182C5C81007E5338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BBC507B182C5C81007E5338 /* WNPatternFacoryTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNPatternFacoryTest-Info.plist"; sourceTree = "<group>"; };
+		3BBC507D182C5C81007E5338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BBC507F182C5C81007E5338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBC5081182C5C81007E5338 /* WNPatternFacoryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WNPatternFacoryTest-Prefix.pch"; sourceTree = "<group>"; };
+		3BBC5082182C5C81007E5338 /* WNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
+		3BBC5083182C5C81007E5338 /* WNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNAppDelegate.m; sourceTree = "<group>"; };
+		3BBC5086182C5C81007E5338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBC5088182C5C81007E5338 /* WNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNViewController.h; sourceTree = "<group>"; };
+		3BBC5089182C5C81007E5338 /* WNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNViewController.m; sourceTree = "<group>"; };
+		3BBC508B182C5C81007E5338 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNPatternFacoryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBC5092182C5C81007E5338 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BBC509A182C5C81007E5338 /* WNPatternFacoryTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNPatternFacoryTestTests-Info.plist"; sourceTree = "<group>"; };
+		3BBC509C182C5C81007E5338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNPatternFacoryTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBC506D182C5C81007E5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC5076182C5C81007E5338 /* CoreGraphics.framework in Frameworks */,
+				3BBC5078182C5C81007E5338 /* UIKit.framework in Frameworks */,
+				3BBC5074182C5C81007E5338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBC508E182C5C81007E5338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC5093182C5C81007E5338 /* XCTest.framework in Frameworks */,
+				3BBC5095182C5C81007E5338 /* UIKit.framework in Frameworks */,
+				3BBC5094182C5C81007E5338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBC5067182C5C81007E5338 = {
+			isa = PBXGroup;
+			children = (
+				3BBC5079182C5C81007E5338 /* WNPatternFacoryTest */,
+				3BBC5098182C5C81007E5338 /* WNPatternFacoryTestTests */,
+				3BBC5072182C5C81007E5338 /* Frameworks */,
+				3BBC5071182C5C81007E5338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBC5071182C5C81007E5338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */,
+				3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBC5072182C5C81007E5338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC5073182C5C81007E5338 /* Foundation.framework */,
+				3BBC5075182C5C81007E5338 /* CoreGraphics.framework */,
+				3BBC5077182C5C81007E5338 /* UIKit.framework */,
+				3BBC5092182C5C81007E5338 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BBC5079182C5C81007E5338 /* WNPatternFacoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC5082182C5C81007E5338 /* WNAppDelegate.h */,
+				3BBC5083182C5C81007E5338 /* WNAppDelegate.m */,
+				3BBC5085182C5C81007E5338 /* Main.storyboard */,
+				3BBC5088182C5C81007E5338 /* WNViewController.h */,
+				3BBC5089182C5C81007E5338 /* WNViewController.m */,
+				3BBC508B182C5C81007E5338 /* Images.xcassets */,
+				3BBC507A182C5C81007E5338 /* Supporting Files */,
+			);
+			path = WNPatternFacoryTest;
+			sourceTree = "<group>";
+		};
+		3BBC507A182C5C81007E5338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC507B182C5C81007E5338 /* WNPatternFacoryTest-Info.plist */,
+				3BBC507C182C5C81007E5338 /* InfoPlist.strings */,
+				3BBC507F182C5C81007E5338 /* main.m */,
+				3BBC5081182C5C81007E5338 /* WNPatternFacoryTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBC5098182C5C81007E5338 /* WNPatternFacoryTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */,
+				3BBC5099182C5C81007E5338 /* Supporting Files */,
+			);
+			path = WNPatternFacoryTestTests;
+			sourceTree = "<group>";
+		};
+		3BBC5099182C5C81007E5338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC509A182C5C81007E5338 /* WNPatternFacoryTestTests-Info.plist */,
+				3BBC509B182C5C81007E5338 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTest" */;
+			buildPhases = (
+				3BBC506C182C5C81007E5338 /* Sources */,
+				3BBC506D182C5C81007E5338 /* Frameworks */,
+				3BBC506E182C5C81007E5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WNPatternFacoryTest;
+			productName = WNPatternFacoryTest;
+			productReference = 3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BBC5090182C5C81007E5338 /* WNPatternFacoryTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTestTests" */;
+			buildPhases = (
+				3BBC508D182C5C81007E5338 /* Sources */,
+				3BBC508E182C5C81007E5338 /* Frameworks */,
+				3BBC508F182C5C81007E5338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BBC5097182C5C81007E5338 /* PBXTargetDependency */,
+			);
+			name = WNPatternFacoryTestTests;
+			productName = WNPatternFacoryTestTests;
+			productReference = 3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBC5068182C5C81007E5338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ashik;
+				TargetAttributes = {
+					3BBC5090182C5C81007E5338 = {
+						TestTargetID = 3BBC506F182C5C81007E5338;
+					};
+				};
+			};
+			buildConfigurationList = 3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNPatternFacoryTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BBC5067182C5C81007E5338;
+			productRefGroup = 3BBC5071182C5C81007E5338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */,
+				3BBC5090182C5C81007E5338 /* WNPatternFacoryTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBC506E182C5C81007E5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC508C182C5C81007E5338 /* Images.xcassets in Resources */,
+				3BBC507E182C5C81007E5338 /* InfoPlist.strings in Resources */,
+				3BBC5087182C5C81007E5338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBC508F182C5C81007E5338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC509D182C5C81007E5338 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBC506C182C5C81007E5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC508A182C5C81007E5338 /* WNViewController.m in Sources */,
+				3BBC5080182C5C81007E5338 /* main.m in Sources */,
+				3BBC5084182C5C81007E5338 /* WNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBC508D182C5C81007E5338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC509F182C5C81007E5338 /* WNPatternFacoryTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BBC5097182C5C81007E5338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */;
+			targetProxy = 3BBC5096182C5C81007E5338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BBC507C182C5C81007E5338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBC507D182C5C81007E5338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BBC5085182C5C81007E5338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBC5086182C5C81007E5338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BBC509B182C5C81007E5338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBC509C182C5C81007E5338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBC50A0182C5C81007E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BBC50A1182C5C81007E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBC50A3182C5C81007E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
+				INFOPLIST_FILE = "WNPatternFacoryTest/WNPatternFacoryTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BBC50A4182C5C81007E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
+				INFOPLIST_FILE = "WNPatternFacoryTest/WNPatternFacoryTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BBC50A6182C5C81007E5338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WNPatternFacoryTest.app/WNPatternFacoryTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNPatternFacoryTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BBC50A7182C5C81007E5338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WNPatternFacoryTest.app/WNPatternFacoryTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
+				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNPatternFacoryTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNPatternFacoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBC50A0182C5C81007E5338 /* Debug */,
+				3BBC50A1182C5C81007E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBC50A3182C5C81007E5338 /* Debug */,
+				3BBC50A4182C5C81007E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBC50A6182C5C81007E5338 /* Debug */,
+				3BBC50A7182C5C81007E5338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBC5068182C5C81007E5338 /* Project object */;
+}
