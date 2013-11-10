@@ -21,6 +21,9 @@
 		3BBC5095182C5C81007E5338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5077182C5C81007E5338 /* UIKit.framework */; };
 		3BBC509D182C5C81007E5338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC509B182C5C81007E5338 /* InfoPlist.strings */; };
 		3BBC509F182C5C81007E5338 /* WNPatternFacoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */; };
+		3BBC50AD182C5D7F007E5338 /* WNPatternFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */; };
+		3BBC50B0182C5D8D007E5338 /* UIColor+more.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50AF182C5D8D007E5338 /* UIColor+more.m */; };
+		3BBC50B3182C5DD3007E5338 /* UIView+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50B2182C5DD3007E5338 /* UIView+More.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		3BBC509A182C5C81007E5338 /* WNPatternFacoryTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNPatternFacoryTestTests-Info.plist"; sourceTree = "<group>"; };
 		3BBC509C182C5C81007E5338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNPatternFacoryTestTests.m; sourceTree = "<group>"; };
+		3BBC50AB182C5D7F007E5338 /* WNPatternFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNPatternFactory.h; sourceTree = "<group>"; };
+		3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNPatternFactory.m; sourceTree = "<group>"; };
+		3BBC50AE182C5D8D007E5338 /* UIColor+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+More.h"; sourceTree = "<group>"; };
+		3BBC50AF182C5D8D007E5338 /* UIColor+more.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+more.m"; sourceTree = "<group>"; };
+		3BBC50B1182C5DD3007E5338 /* UIView+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+More.h"; sourceTree = "<group>"; };
+		3BBC50B2182C5DD3007E5338 /* UIView+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+More.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,7 @@
 		3BBC5079182C5C81007E5338 /* WNPatternFacoryTest */ = {
 			isa = PBXGroup;
 			children = (
+				3BBC50A8182C5CBE007E5338 /* WNUtils */,
 				3BBC5082182C5C81007E5338 /* WNAppDelegate.h */,
 				3BBC5083182C5C81007E5338 /* WNAppDelegate.m */,
 				3BBC5085182C5C81007E5338 /* Main.storyboard */,
@@ -150,6 +160,35 @@
 				3BBC509B182C5C81007E5338 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBC50A8182C5CBE007E5338 /* WNUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC50AA182C5D4C007E5338 /* WNPatternFactory */,
+				3BBC50A9182C5D05007E5338 /* Categories */,
+			);
+			path = WNUtils;
+			sourceTree = "<group>";
+		};
+		3BBC50A9182C5D05007E5338 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC50AE182C5D8D007E5338 /* UIColor+More.h */,
+				3BBC50AF182C5D8D007E5338 /* UIColor+more.m */,
+				3BBC50B1182C5DD3007E5338 /* UIView+More.h */,
+				3BBC50B2182C5DD3007E5338 /* UIView+More.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3BBC50AA182C5D4C007E5338 /* WNPatternFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3BBC50AB182C5D7F007E5338 /* WNPatternFactory.h */,
+				3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */,
+			);
+			path = WNPatternFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBC50AD182C5D7F007E5338 /* WNPatternFactory.m in Sources */,
 				3BBC508A182C5C81007E5338 /* WNViewController.m in Sources */,
 				3BBC5080182C5C81007E5338 /* main.m in Sources */,
+				3BBC50B3182C5DD3007E5338 /* UIView+More.m in Sources */,
 				3BBC5084182C5C81007E5338 /* WNAppDelegate.m in Sources */,
+				3BBC50B0182C5D8D007E5338 /* UIColor+more.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
