@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4B6C16183FC3C30026DD3D /* NSString+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4B6C15183FC3C30026DD3D /* NSString+More.m */; };
 		3BBC5074182C5C81007E5338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5073182C5C81007E5338 /* Foundation.framework */; };
 		3BBC5076182C5C81007E5338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5075182C5C81007E5338 /* CoreGraphics.framework */; };
 		3BBC5078182C5C81007E5338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5077182C5C81007E5338 /* UIKit.framework */; };
@@ -20,8 +21,8 @@
 		3BBC5094182C5C81007E5338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5073182C5C81007E5338 /* Foundation.framework */; };
 		3BBC5095182C5C81007E5338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBC5077182C5C81007E5338 /* UIKit.framework */; };
 		3BBC509D182C5C81007E5338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC509B182C5C81007E5338 /* InfoPlist.strings */; };
-		3BBC509F182C5C81007E5338 /* WNPatternFacoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */; };
-		3BBC50AD182C5D7F007E5338 /* WNPatternFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */; };
+		3BBC509F182C5C81007E5338 /* WNImageFacoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC509E182C5C81007E5338 /* WNImageFacoryTestTests.m */; };
+		3BBC50AD182C5D7F007E5338 /* WNImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50AC182C5D7F007E5338 /* WNImageFactory.m */; };
 		3BBC50B0182C5D8D007E5338 /* UIColor+more.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50AF182C5D8D007E5338 /* UIColor+more.m */; };
 		3BBC50B3182C5DD3007E5338 /* UIView+More.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC50B2182C5DD3007E5338 /* UIView+More.m */; };
 /* End PBXBuildFile section */
@@ -37,27 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNPatternFacoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4B6C14183FC3C30026DD3D /* NSString+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+More.h"; sourceTree = "<group>"; };
+		3B4B6C15183FC3C30026DD3D /* NSString+More.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+More.m"; sourceTree = "<group>"; };
+		3BBC5070182C5C81007E5338 /* WNImageFacory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNImageFacory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBC5073182C5C81007E5338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BBC5075182C5C81007E5338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3BBC5077182C5C81007E5338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3BBC507B182C5C81007E5338 /* WNPatternFacoryTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNPatternFacoryTest-Info.plist"; sourceTree = "<group>"; };
+		3BBC507B182C5C81007E5338 /* WNImageFacory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNImageFacory-Info.plist"; sourceTree = "<group>"; };
 		3BBC507D182C5C81007E5338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BBC507F182C5C81007E5338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3BBC5081182C5C81007E5338 /* WNPatternFacoryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WNPatternFacoryTest-Prefix.pch"; sourceTree = "<group>"; };
+		3BBC5081182C5C81007E5338 /* WNImageFacory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WNImageFacory-Prefix.pch"; sourceTree = "<group>"; };
 		3BBC5082182C5C81007E5338 /* WNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNAppDelegate.h; sourceTree = "<group>"; };
 		3BBC5083182C5C81007E5338 /* WNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNAppDelegate.m; sourceTree = "<group>"; };
 		3BBC5086182C5C81007E5338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BBC5088182C5C81007E5338 /* WNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNViewController.h; sourceTree = "<group>"; };
 		3BBC5089182C5C81007E5338 /* WNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNViewController.m; sourceTree = "<group>"; };
 		3BBC508B182C5C81007E5338 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNPatternFacoryTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBC5091182C5C81007E5338 /* WNImageFacoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNImageFacoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBC5092182C5C81007E5338 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3BBC509A182C5C81007E5338 /* WNPatternFacoryTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNPatternFacoryTestTests-Info.plist"; sourceTree = "<group>"; };
+		3BBC509A182C5C81007E5338 /* WNImageFacoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WNImageFacoryTests-Info.plist"; sourceTree = "<group>"; };
 		3BBC509C182C5C81007E5338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNPatternFacoryTestTests.m; sourceTree = "<group>"; };
-		3BBC50AB182C5D7F007E5338 /* WNPatternFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNPatternFactory.h; sourceTree = "<group>"; };
-		3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNPatternFactory.m; sourceTree = "<group>"; };
+		3BBC509E182C5C81007E5338 /* WNImageFacoryTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNImageFacoryTestTests.m; sourceTree = "<group>"; };
+		3BBC50AB182C5D7F007E5338 /* WNImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNImageFactory.h; sourceTree = "<group>"; };
+		3BBC50AC182C5D7F007E5338 /* WNImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNImageFactory.m; sourceTree = "<group>"; };
 		3BBC50AE182C5D8D007E5338 /* UIColor+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+More.h"; sourceTree = "<group>"; };
 		3BBC50AF182C5D8D007E5338 /* UIColor+more.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+more.m"; sourceTree = "<group>"; };
 		3BBC50B1182C5DD3007E5338 /* UIView+More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+More.h"; sourceTree = "<group>"; };
@@ -91,8 +94,8 @@
 		3BBC5067182C5C81007E5338 = {
 			isa = PBXGroup;
 			children = (
-				3BBC5079182C5C81007E5338 /* WNPatternFacoryTest */,
-				3BBC5098182C5C81007E5338 /* WNPatternFacoryTestTests */,
+				3BBC5079182C5C81007E5338 /* WNImageFacory */,
+				3BBC5098182C5C81007E5338 /* WNImageFacoryTests */,
 				3BBC5072182C5C81007E5338 /* Frameworks */,
 				3BBC5071182C5C81007E5338 /* Products */,
 			);
@@ -101,8 +104,8 @@
 		3BBC5071182C5C81007E5338 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */,
-				3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */,
+				3BBC5070182C5C81007E5338 /* WNImageFacory.app */,
+				3BBC5091182C5C81007E5338 /* WNImageFacoryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +121,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3BBC5079182C5C81007E5338 /* WNPatternFacoryTest */ = {
+		3BBC5079182C5C81007E5338 /* WNImageFacory */ = {
 			isa = PBXGroup;
 			children = (
 				3BBC50A8182C5CBE007E5338 /* WNUtils */,
@@ -130,33 +133,33 @@
 				3BBC508B182C5C81007E5338 /* Images.xcassets */,
 				3BBC507A182C5C81007E5338 /* Supporting Files */,
 			);
-			path = WNPatternFacoryTest;
+			path = WNImageFacory;
 			sourceTree = "<group>";
 		};
 		3BBC507A182C5C81007E5338 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC507B182C5C81007E5338 /* WNPatternFacoryTest-Info.plist */,
+				3BBC507B182C5C81007E5338 /* WNImageFacory-Info.plist */,
 				3BBC507C182C5C81007E5338 /* InfoPlist.strings */,
 				3BBC507F182C5C81007E5338 /* main.m */,
-				3BBC5081182C5C81007E5338 /* WNPatternFacoryTest-Prefix.pch */,
+				3BBC5081182C5C81007E5338 /* WNImageFacory-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3BBC5098182C5C81007E5338 /* WNPatternFacoryTestTests */ = {
+		3BBC5098182C5C81007E5338 /* WNImageFacoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC509E182C5C81007E5338 /* WNPatternFacoryTestTests.m */,
+				3BBC509E182C5C81007E5338 /* WNImageFacoryTestTests.m */,
 				3BBC5099182C5C81007E5338 /* Supporting Files */,
 			);
-			path = WNPatternFacoryTestTests;
+			path = WNImageFacoryTests;
 			sourceTree = "<group>";
 		};
 		3BBC5099182C5C81007E5338 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC509A182C5C81007E5338 /* WNPatternFacoryTestTests-Info.plist */,
+				3BBC509A182C5C81007E5338 /* WNImageFacoryTests-Info.plist */,
 				3BBC509B182C5C81007E5338 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -165,7 +168,7 @@
 		3BBC50A8182C5CBE007E5338 /* WNUtils */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC50AA182C5D4C007E5338 /* WNPatternFactory */,
+				3BBC50AA182C5D4C007E5338 /* WNImageFactory */,
 				3BBC50A9182C5D05007E5338 /* Categories */,
 			);
 			path = WNUtils;
@@ -178,25 +181,28 @@
 				3BBC50AF182C5D8D007E5338 /* UIColor+more.m */,
 				3BBC50B1182C5DD3007E5338 /* UIView+More.h */,
 				3BBC50B2182C5DD3007E5338 /* UIView+More.m */,
+				3B4B6C14183FC3C30026DD3D /* NSString+More.h */,
+				3B4B6C15183FC3C30026DD3D /* NSString+More.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		3BBC50AA182C5D4C007E5338 /* WNPatternFactory */ = {
+		3BBC50AA182C5D4C007E5338 /* WNImageFactory */ = {
 			isa = PBXGroup;
 			children = (
-				3BBC50AB182C5D7F007E5338 /* WNPatternFactory.h */,
-				3BBC50AC182C5D7F007E5338 /* WNPatternFactory.m */,
+				3BBC50AB182C5D7F007E5338 /* WNImageFactory.h */,
+				3BBC50AC182C5D7F007E5338 /* WNImageFactory.m */,
 			);
+			name = WNImageFactory;
 			path = WNPatternFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */ = {
+		3BBC506F182C5C81007E5338 /* WNImageFacory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTest" */;
+			buildConfigurationList = 3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNImageFacory" */;
 			buildPhases = (
 				3BBC506C182C5C81007E5338 /* Sources */,
 				3BBC506D182C5C81007E5338 /* Frameworks */,
@@ -206,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = WNPatternFacoryTest;
+			name = WNImageFacory;
 			productName = WNPatternFacoryTest;
-			productReference = 3BBC5070182C5C81007E5338 /* WNPatternFacoryTest.app */;
+			productReference = 3BBC5070182C5C81007E5338 /* WNImageFacory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BBC5090182C5C81007E5338 /* WNPatternFacoryTestTests */ = {
+		3BBC5090182C5C81007E5338 /* WNImageFacoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTestTests" */;
+			buildConfigurationList = 3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNImageFacoryTests" */;
 			buildPhases = (
 				3BBC508D182C5C81007E5338 /* Sources */,
 				3BBC508E182C5C81007E5338 /* Frameworks */,
@@ -224,9 +230,9 @@
 			dependencies = (
 				3BBC5097182C5C81007E5338 /* PBXTargetDependency */,
 			);
-			name = WNPatternFacoryTestTests;
+			name = WNImageFacoryTests;
 			productName = WNPatternFacoryTestTests;
-			productReference = 3BBC5091182C5C81007E5338 /* WNPatternFacoryTestTests.xctest */;
+			productReference = 3BBC5091182C5C81007E5338 /* WNImageFacoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNPatternFacoryTest" */;
+			buildConfigurationList = 3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNImageFacory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -257,8 +263,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */,
-				3BBC5090182C5C81007E5338 /* WNPatternFacoryTestTests */,
+				3BBC506F182C5C81007E5338 /* WNImageFacory */,
+				3BBC5090182C5C81007E5338 /* WNImageFacoryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,10 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBC50AD182C5D7F007E5338 /* WNPatternFactory.m in Sources */,
+				3BBC50AD182C5D7F007E5338 /* WNImageFactory.m in Sources */,
 				3BBC508A182C5C81007E5338 /* WNViewController.m in Sources */,
 				3BBC5080182C5C81007E5338 /* main.m in Sources */,
 				3BBC50B3182C5DD3007E5338 /* UIView+More.m in Sources */,
+				3B4B6C16183FC3C30026DD3D /* NSString+More.m in Sources */,
 				3BBC5084182C5C81007E5338 /* WNAppDelegate.m in Sources */,
 				3BBC50B0182C5D8D007E5338 /* UIColor+more.m in Sources */,
 			);
@@ -302,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BBC509F182C5C81007E5338 /* WNPatternFacoryTestTests.m in Sources */,
+				3BBC509F182C5C81007E5338 /* WNImageFacoryTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +318,7 @@
 /* Begin PBXTargetDependency section */
 		3BBC5097182C5C81007E5338 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BBC506F182C5C81007E5338 /* WNPatternFacoryTest */;
+			target = 3BBC506F182C5C81007E5338 /* WNImageFacory */;
 			targetProxy = 3BBC5096182C5C81007E5338 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,9 +429,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
-				INFOPLIST_FILE = "WNPatternFacoryTest/WNPatternFacoryTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WNImageFacory/WNImageFacory-Prefix.pch";
+				INFOPLIST_FILE = "WNImageFacory/WNImageFacory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WNImageFacory;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,9 +443,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
-				INFOPLIST_FILE = "WNPatternFacoryTest/WNPatternFacoryTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "WNImageFacory/WNImageFacory-Prefix.pch";
+				INFOPLIST_FILE = "WNImageFacory/WNImageFacory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = WNImageFacory;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -458,8 +467,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNPatternFacoryTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNImageFacoryTests-Info.plist";
+				PRODUCT_NAME = WNImageFacoryTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -477,8 +486,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WNPatternFacoryTest/WNPatternFacoryTest-Prefix.pch";
-				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNPatternFacoryTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "WNPatternFacoryTestTests/WNImageFacoryTests-Info.plist";
+				PRODUCT_NAME = WNImageFacoryTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -487,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNPatternFacoryTest" */ = {
+		3BBC506B182C5C81007E5338 /* Build configuration list for PBXProject "WNImageFacory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BBC50A0182C5C81007E5338 /* Debug */,
@@ -496,21 +505,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTest" */ = {
+		3BBC50A2182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNImageFacory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BBC50A3182C5C81007E5338 /* Debug */,
 				3BBC50A4182C5C81007E5338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNPatternFacoryTestTests" */ = {
+		3BBC50A5182C5C81007E5338 /* Build configuration list for PBXNativeTarget "WNImageFacoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BBC50A6182C5C81007E5338 /* Debug */,
 				3BBC50A7182C5C81007E5338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

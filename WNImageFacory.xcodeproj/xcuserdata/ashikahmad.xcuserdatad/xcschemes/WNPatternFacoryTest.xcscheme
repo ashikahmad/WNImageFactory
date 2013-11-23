@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BBC506F182C5C81007E5338"
-               BuildableName = "WNPatternFacoryTest.app"
-               BlueprintName = "WNPatternFacoryTest"
-               ReferencedContainer = "container:WNPatternFacoryTest.xcodeproj">
+               BuildableName = "WNImageFacory.app"
+               BlueprintName = "WNImageFacory"
+               ReferencedContainer = "container:WNImageFacory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BBC5090182C5C81007E5338"
-               BuildableName = "WNPatternFacoryTestTests.xctest"
-               BlueprintName = "WNPatternFacoryTestTests"
-               ReferencedContainer = "container:WNPatternFacoryTest.xcodeproj">
+               BuildableName = "WNImageFacoryTests.xctest"
+               BlueprintName = "WNImageFacoryTests"
+               ReferencedContainer = "container:WNImageFacory.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBC506F182C5C81007E5338"
-            BuildableName = "WNPatternFacoryTest.app"
-            BlueprintName = "WNPatternFacoryTest"
-            ReferencedContainer = "container:WNPatternFacoryTest.xcodeproj">
+            BuildableName = "WNImageFacory.app"
+            BlueprintName = "WNImageFacory"
+            ReferencedContainer = "container:WNImageFacory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBC506F182C5C81007E5338"
-            BuildableName = "WNPatternFacoryTest.app"
-            BlueprintName = "WNPatternFacoryTest"
-            ReferencedContainer = "container:WNPatternFacoryTest.xcodeproj">
+            BuildableName = "WNImageFacory.app"
+            BlueprintName = "WNImageFacory"
+            ReferencedContainer = "container:WNImageFacory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BBC506F182C5C81007E5338"
-            BuildableName = "WNPatternFacoryTest.app"
-            BlueprintName = "WNPatternFacoryTest"
-            ReferencedContainer = "container:WNPatternFacoryTest.xcodeproj">
+            BuildableName = "WNImageFacory.app"
+            BlueprintName = "WNImageFacory"
+            ReferencedContainer = "container:WNImageFacory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
