@@ -193,8 +193,7 @@
 				3BBC50AB182C5D7F007E5338 /* WNImageFactory.h */,
 				3BBC50AC182C5D7F007E5338 /* WNImageFactory.m */,
 			);
-			name = WNImageFactory;
-			path = WNPatternFactory;
+			path = WNImageFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
